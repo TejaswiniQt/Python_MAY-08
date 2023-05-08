@@ -1,0 +1,15 @@
+'''
+Python program to interchange first and last elements in a list
+
+'''
+
+l1 = [10,20,30,40]
+
+len1 = len(l1)
+
+for i in range(len1):
+    if i==(len1-1):
+        temp = l1[0]
+        l1[0] = l1[i]
+        l1[i] = temp
+print(l1)

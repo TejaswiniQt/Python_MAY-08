@@ -1,0 +1,19 @@
+'''
+Python program to swap two elements in a list
+
+'''
+
+l1 = [10,20,30,40]
+
+len1 = len(l1)
+pos1 = 2 
+pos2 = 3
+
+for i in range(1,len1+1):
+    if i==len1:
+        temp = l1[pos1]
+        l1[pos1] = l1[pos2]
+        l1[pos2] = temp
+print(l1)
+        
+        

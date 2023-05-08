@@ -1,0 +1,12 @@
+'''
+To Find the Length of a List in Python
+
+'''
+
+l1 = [10,20,30,40]
+count = 0 
+
+for i in l1:
+    count += 1 
+print(count)
+        
